@@ -1,0 +1,10 @@
+
+
+<div class="container">
+    <div class="kont1">        <ng-container *ngFor="let post of posts">
+        <div class="ngcell">
+            <button class="tabopen" (click)="onClick(post.id)">{{post.title}}</button>
+        </div>
+    </ng-container></div>
+    <div class="kont2"><app-post-details [item]="currentItem"></app-post-details></div>
+</div>

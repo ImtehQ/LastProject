@@ -1,0 +1,4 @@
+<ng-container *ngFor="let user of users">
+    <div class="ngcell">
+        <button class="tabopen" (click)="openDialog(user.id)">{{user.username}}</button>
+    </div>

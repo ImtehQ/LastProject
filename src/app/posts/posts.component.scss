@@ -11,6 +11,11 @@ body[ng-cloak] {
   section[flex="40"] {
     background-color: mediumaquamarine;
   }
+
+  .container {
+    display: flex;
+  }
+
   section[flex="70"] {
     background-color: lavender;
   }
@@ -30,4 +35,4 @@ body[ng-cloak] {
     border: 5px solid rgba(85, 97, 85, 0.27);
     margin: 5px;  
   }
- 
+  
